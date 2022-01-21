@@ -1,0 +1,111 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Upload media from URL\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-01-21 15:21+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.5.4; wp-5.8.1\n"
+"X-Domain: mjupurl"
+
+#: Backend/Page.php:155 Backend/Page.php:184
+msgid "Add row"
+msgstr ""
+
+#: Backend/Page.php:67
+msgid "All files uploaded and added to attachments"
+msgstr ""
+
+#: Backend/Page.php:127
+msgid "Bulk links"
+msgstr ""
+
+#. Description of the plugin
+msgid "Download files from URL and upload them in WordPress media library."
+msgstr ""
+
+#: Backend/Page.php:116
+msgid "Edit"
+msgstr ""
+
+#: Backend/Page.php:134
+msgid "Enter file links you want to download and add them to the media library"
+msgstr ""
+
+#: Backend/Page.php:159
+msgid "Enter filenames without extension"
+msgstr ""
+
+#: Backend/Page.php:131
+msgid "Enter your links in each line"
+msgstr ""
+
+#: Backend/Page.php:158
+msgid "Filename"
+msgstr ""
+
+#: Utils.php:37
+msgid "Filetype not allowed"
+msgstr ""
+
+#: Backend/Page.php:131
+msgid "For set filenames follow this template: URL : FILENAME"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://mjkhajeh.ir"
+msgstr ""
+
+#. URI of the plugin
+msgid "https://wordpress.org/plugins/upload-media-from-url"
+msgstr ""
+
+#: Backend/Page.php:160
+msgid "Leave empty to get original filename"
+msgstr ""
+
+#. Author of the plugin
+msgid "MohammadJafar Khajeh"
+msgstr ""
+
+#: Backend/AttachmentField.php:20
+msgid "Original URL"
+msgstr ""
+
+#: Backend/Page.php:188
+msgid "Settings"
+msgstr ""
+
+#: Backend/Page.php:194
+msgid "Timeout"
+msgstr ""
+
+#: Backend/Page.php:203
+msgid "Upload"
+msgstr ""
+
+#. $parent_slug:string
+#. $page_title:string
+#: Backend/Page.php:75 Backend/Page.php:76 Backend/Page.php:91
+msgid "Upload from URL"
+msgstr ""
+
+#. Name of the plugin
+msgid "Upload media from URL"
+msgstr ""
+
+#: Backend/Page.php:154
+msgid "URL"
+msgstr ""
+
+#: Backend/Page.php:55
+msgid "URL is not valid"
+msgstr ""
