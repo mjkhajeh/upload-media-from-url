@@ -1,5 +1,5 @@
 
-# Upload media by URL
+# Upload media from URL
 
 Download files from URL and upload them in WordPress media library.
 
