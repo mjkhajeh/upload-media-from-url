@@ -101,14 +101,14 @@ class Page {
 							if( Utils::is_img( basename( $link ) ) ) {
 								$img = $link;
 							}
-							$attachments_links[] = $link;
+							$attachments_links[] = esc_url( $link );
 							?>
 							<li class="mjupurl_attachment">
 								<div>
-									<a href="<?php echo $link ?>">
-										<img src="<?php echo $img ?>" alt="" class="mjupurl_attachment_img">
+									<a href="<?php echo esc_url( $link ) ?>">
+										<img src="<?php echo esc_url( $img ) ?>" alt="" class="mjupurl_attachment_img">
 										<p>
-											<i class="dashicons dashicons-admin-links"></i><?php echo basename( $link ) ?>
+											<i class="dashicons dashicons-admin-links"></i><?php echo basename( esc_url( $link ) ) ?>
 										</p>
 									</a>
 								</div>	
@@ -118,7 +118,7 @@ class Page {
 							</li>
 						<?php } ?>
 					</ul>
-					<textarea id="mjupurl_attachments_links" class="ltr" rows="15" readonly><?php echo implode( PHP_EOL, $attachments_links ) ?></textarea>
+					<textarea id="mjupurl_attachments_links" class="ltr" rows="15" readonly><?php echo esc_textarea( implode( PHP_EOL, $attachments_links ) ) ?></textarea>
 				</div>
 			<?php } ?>
 			<div class="mjupurl_bulk_links_wrap">
@@ -127,7 +127,7 @@ class Page {
 					<?php _e( "Bulk links", 'mjupurl' ) ?>
 				</a>
 				<div class="mjupurl_bulk_links">
-					<textarea id="mjupurl_bulk_links_input" rows="15" class="regular-text ltr"><?php echo implode( PHP_EOL, $bulks ) ?></textarea>
+					<textarea id="mjupurl_bulk_links_input" rows="15" class="regular-text ltr"><?php echo esc_textarea( implode( PHP_EOL, $bulks ) ) ?></textarea>
 					<span class="description"><?php _e( "Enter your links in each line", 'mjupurl' ) ?><br><?php _e( "For set filenames follow this template: URL : FILENAME", 'mjupurl' ) ?></span>
 				</div>
 			</div>

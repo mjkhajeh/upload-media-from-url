@@ -17,6 +17,8 @@ class Utils {
 		include_once( ABSPATH . 'wp-admin/includes/file.php');
 		require_once( ABSPATH . 'wp-admin/includes/image.php' );
 		require_once( ABSPATH . 'wp-admin/includes/media.php' );
+
+		$url = esc_url_raw( $url );
 		
 		if( empty( $filename ) ) {
 			$filename = wp_basename( urldecode( $url ) );

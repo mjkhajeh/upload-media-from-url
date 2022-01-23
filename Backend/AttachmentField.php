@@ -19,7 +19,7 @@ class AttachmentField {
 			$form_fields["mjupurl_orig_url"] = array(
 				"label"	=> __( "Original URL", 'mjupurl' ),
 				"input"	=> "html",
-				"html"	=> "<input type='text' value='" . get_post_meta( $post->ID, "mjupurl_orig_url", true ) . "' readonly>",
+				"html"	=> "<input type='text' value='" . esc_url( get_post_meta( $post->ID, "mjupurl_orig_url", true ) ) . "' readonly>",
 			);
 		}
 
